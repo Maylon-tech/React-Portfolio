@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
 :root {
     --brown-color: #b09a68;
@@ -106,7 +106,7 @@ a {
     color: var(--dark-color);
 }
 
-/* Font-weight */
+Font-weight 
 .fw-2 {font-weight: 200;}
 .fw-3 {font-weight: 300;}
 .fw-4 {font-weight: 400;}
@@ -116,7 +116,7 @@ a {
 .fw-8 {font-weight: 800;}
 .fw-9 {font-weight: 900;}
 
-/* Backgrounds */
+ Backgrounds 
 .bg-transparent {
     background-color: transparent;
 }
@@ -139,7 +139,7 @@ a {
     background-color: var(--dark-color);
 }
 
-/* Letter-spacing */
+/* Letter-spacing 
 .ls-1 {letter-spacing: 1px;}
 .ls-2 {letter-spacing: 2px;} 
 
@@ -148,7 +148,7 @@ a {
     margin-right: auto;
 }
 
-/* Font-size */
+ Font-size 
 .fs-14 {font-size: 14px;}
 .fs-16 {font-size: 16px;}
 .fs-18 {font-size: 18px;}
@@ -156,9 +156,9 @@ a {
 .fs-22 {font-size: 22px;}
 .fs-24 {font-size: 24px;}
 
-/* Opacity */
+ Opacity 
 .op-09 {opacity: 0.9;}
 .op-08 {opacity: 0.8;}
 .op-07 {opacity: 0.7;}
 .op-06 {opacity: 0.6;}
-.op-05 {opacity: 0.5;}
+.op-05 {opacity: 0.5;} */

@@ -1,25 +1,40 @@
 import React from 'react';
-
-import './Header.css'
+import { Link } from 'react-router-dom'
+import './index.js'
+import { Container, IconContent, IconsContainer, Logo, NavItem, Navbar } from './index.js';
+import { BsFillSunFill, BsFillMoonFill, BsMenuButtonWide } from 'react-icons/bs'
 
 const Header = () => {
     return ( 
-        <div className='header flex flex-col' id='header'> 
-            {/* navbar */}
-            <div className='container flex'>
-                <div className='header-content'>
-                    <h2 className='text-uppercase text-white op-07 fw-6 ls-2'>Web design, branding, graphic</h2>
-                    <h1 className='text-white fw-6 header-title'>Hello, I'm <span className='text-brown'>Front-End Developer & Freelancer</span> living in Aichi, Japan</h1>
-                    <div className='btn-groups flex'>
-                        <button type="button" className='btn-item bg-brown fw-4 ls-2'>See Workd</button>
-                        <button type="button" className='btn-item bg-dark fw-4 ls-2'>Contact Me</button>
-                    </div>
-                </div>
-            </div>
+        <Container>
+            <Logo>
+                Port
+                <span>folio</span>
+            </Logo>
 
+            <Navbar>
+                <NavItem>
+                    <Link to="/">Home</Link>
+                </NavItem>
+                <NavItem>
+                    <Link to="/about">About</Link>
+                </NavItem>
+                <NavItem>
+                    <Link to="/portfolio">Portfolio</Link>
+                </NavItem>
+            </Navbar>
 
-        </div>
-     );
+            <IconsContainer>
+                <IconContent>
+                    <BsFillSunFill />
+                    <BsFillMoonFill />
+                </IconContent>
+                <IconContent>
+                    <BsMenuButtonWide />
+                </IconContent>
+            </IconsContainer>
+        </Container>
+     )
 }
  
-export default Header;
+export default Header
